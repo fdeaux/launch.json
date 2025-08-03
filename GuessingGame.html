@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -23,3 +24,30 @@
     </script>
   </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width-=device-width, initial-scale=1.0" />
+  <title>Random Number with a while Loop</title>
+  <head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      let guessNumber = 0;
+      let numberToGuess = 71;
+      let guess;
+      while (guess != numberToGuess) {
+        guess = Math.floor(Math.random() * 100);
+        guessNumber++;
+      }
+      document.getElementById("root").innerHTML = `
+        <h2>I guessed it!</h2>
+        <p>It only took me $(guessNumber) guesses! </p>`;
+    </script>
+  </body>
+</html>
+>>>>>>> 9bf071513cfdfbde5152d6c49f07f0a195cd311b
