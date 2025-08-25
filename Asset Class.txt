@@ -1,0 +1,49 @@
+Asset Class {
+	Asset Number
+	Asset Desctiption
+	[
+		Description 1
+		Desctiption 2
+		Description 3
+	]
+	Unit Number
+	Serial Number
+	Parent Number
+	Accounting Informaton
+	[
+		Company Number
+		Responsible BU
+		Account Number
+		[
+			Business Unit
+			Object Account
+			Subsidiary
+		]
+		Date Acquired
+		Date Disposed
+		Authorization for Expenditure
+	]
+	Equipment Maintenance Information
+	[
+		Status
+		Subledger Inactive
+		Employee Assignment
+		Inventory Item Number
+	]
+	Location Information
+	[
+		Business Unit
+		Start Date
+		Item Quantity
+		Original Item Quantity
+	]
+	New_Used
+	State_Province
+	Tax Entity
+	}	
+	
+	
+	
+		
+	
+	
